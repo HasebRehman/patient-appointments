@@ -477,14 +477,14 @@ const Signup = () => {
                     label={
                       <Typography marginTop="7px" fontFamily={FF} fontSize="0.82rem" color={C.textMid}>
                         I agree to the{" "}
-                        <MuiLink href="#" underline="none" sx={{
+                        <MuiLink href="/terms&conditions" underline="none" sx={{
                           fontFamily: FF, fontWeight: 800, color: C.primary,
                           "&:hover": { color: C.primaryDark, textDecoration: "underline" },
                         }}>
                           Terms & Conditions
                         </MuiLink>
                         {" "}and{" "}
-                        <MuiLink href="#" underline="none" sx={{
+                        <MuiLink href="/privacypolicy" underline="none" sx={{
                           fontFamily: FF, fontWeight: 800, color: C.primary,
                           "&:hover": { color: C.primaryDark, textDecoration: "underline" },
                         }}>

@@ -10,6 +10,7 @@ import LocalHospitalRoundedIcon  from "@mui/icons-material/LocalHospitalRounded"
 import DashboardIcon             from "@mui/icons-material/Dashboard";
 import MenuRoundedIcon           from "@mui/icons-material/MenuRounded";
 import CloseRoundedIcon          from "@mui/icons-material/CloseRounded";
+import MenuBookIcon from '@mui/icons-material/MenuBook';
 import { useDispatch } from "react-redux";
 import { setHospitalCity } from "../redux/slices/hospitalSlice";
 
@@ -19,6 +20,7 @@ const navItems = [
   { label: "Patients",     href: "/patients",     icon: PeopleAltRoundedIcon },
   { label: "Doctors",      href: "/doctors",      icon: MedicalServicesRoundedIcon },
   { label: "Hospitals",    href: "/hospitals",    icon: LocalHospitalRoundedIcon },
+  { label: "Instructions",    href: "/instructions",    icon: MenuBookIcon }
 ];
 
 const Sidebar = () => {
