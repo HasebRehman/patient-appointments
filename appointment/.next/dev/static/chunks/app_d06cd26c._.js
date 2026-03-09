@@ -59,7 +59,9 @@ function AuthGuard({ children }) {
             const publicRoutes = [
                 "/login",
                 "/signup",
-                "/otp"
+                "/otp",
+                "/terms&conditions",
+                "/privacypolicy"
             ];
             if (!token && !publicRoutes.includes(pathname)) {
                 router.replace("/login");
